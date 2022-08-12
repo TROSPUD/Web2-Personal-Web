@@ -1,0 +1,116 @@
+body {
+    margin:0;
+    text-align: center;
+    font-family: STXihei;
+    color: #40514E;
+    background-color: #F9F5EB;
+}
+h1 {
+    font-size: 250%;
+}
+h2 {
+    color: #1C3879;
+}
+h3 {
+    color: #1C3879;
+}
+hr {
+    border: dotted #607EAA 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+a {
+    color: #F9F5EB;
+    margin: 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAE3D2;
+}
+/*default的margin值不为0，导致浏览器最上方留空*/
+.top-container {
+    background-color: #1C3879;
+    color: white;
+    position: relative;
+    padding-top: 100px;
+    font-family: STXihei;
+}
+.middle-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bottom {
+    position: relative;
+    right: 100px;
+}
+.third {
+    position: relative;
+    left:200px;
+}
+.profile {
+    width: 50%;
+    margin: auto;
+}
+#intro {
+    text-align: justify;
+    line-height: 1.5;
+}
+.playboy {
+    border-radius: 50%;
+}
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+.imearth {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.imcheese {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.imbook {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.record {
+    color:#40514E;
+    margin: 0;
+}
+#ski {
+    padding-bottom: 15px;
+}
+.ending {
+    width: 40%;
+    margin: 50px auto ;
+}
+
+.btn {
+    -webkit-border-radius: 21;
+    -moz-border-radius: 21;
+    border-radius: 21px;
+    font-family: STXihei;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1C3879;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #607EAA;
+    text-decoration: none;
+}
+.bottom-container {
+    background-color: #1C3879;
+    color: #F9F5EB;
+    padding: 2em 0 1em 0;
+
+}
